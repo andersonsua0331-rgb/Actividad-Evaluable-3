@@ -35,7 +35,14 @@ public class CreditoCorporativo{
         }else{
             this.saldoPendiente= saldoPendiente;
         }
+        
     }
+
+    public boolean esRiesgoso(){
+        return saldoPendiente > (montoPrestado * 1.2);
+    }
+   
+    public voy 
 
     
  
