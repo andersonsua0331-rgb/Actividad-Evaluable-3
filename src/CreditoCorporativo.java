@@ -38,11 +38,21 @@ public class CreditoCorporativo{
         
     }
 
+    public double getsaldopendiente(){
+        return saldoPendiente;
+
+    }
+
+    
+
     public boolean esRiesgoso(){
         return saldoPendiente > (montoPrestado * 1.2);
     }
    
-    public voy 
+    public void abonarCapital(double cantidad){
+        if ( cantidad > 0);
+
+    }
 
     
  
