@@ -55,6 +55,9 @@ public class CreditoCorporativo {
     }
 
     public void abonarCapital(double saldo) {
+        if (saldoPendiente>=0) {
+            
+        }
         saldoPendiente= saldoPendiente-saldo;
     }
 
@@ -69,9 +72,9 @@ public class CreditoCorporativo {
             System.out.println("Es riesgoso");
 
             
-        }
+        
     } 
-
+}
     
 
 

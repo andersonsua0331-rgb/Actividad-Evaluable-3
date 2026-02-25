@@ -1,10 +1,12 @@
 public class GestorDeCobranza {
-
-    public void intertarLiquidacionMalicionsa(CreditoCorporativo c){
-       
+    
+    public void intentarLiquidacionMalicionsa(CreditoCorporativo c){
+    
+       c.SetsaldoPendiente(0);
        c.abonarCapital(-5000);
 
        }
+       
     
 
 
@@ -16,5 +18,5 @@ public class GestorDeCobranza {
     }
 
 
-    
+
 }
