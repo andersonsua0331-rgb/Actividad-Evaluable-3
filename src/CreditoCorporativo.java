@@ -55,12 +55,12 @@ public class CreditoCorporativo {
     }
 
     public void abonarCapital(double saldo) {
-        if (saldoPendiente>=0) {
-            
+        if (saldoPendiente>=0) {            
         }
         saldoPendiente= saldoPendiente-saldo;
     }
 
+    
     public void capitalizarIntereses() {
         double interes= saldoPendiente * tasaInteres;
         saldoPendiente+= interes;
@@ -73,7 +73,7 @@ public class CreditoCorporativo {
 
             
         
-            
+
     } 
 }
     
